@@ -18,11 +18,11 @@ Jobs:
     # Shown as a prefix only when the user has 1 job.
     #
     # NOTE: Must be 1 word
-    fullname: Woodcutter
+    fullname: Oduncu
     # Shortened version of the name of the job. Used as a prefix when the user has more 
     # than 1 job
-    shortname: W
-    description: Earns money felling and planting trees  
+    shortname: O
+    description: Odun kirarak para kazanir. 
     # The colour of the name, for a full list of supported colours, go to the message config.
     ChatColour: GREEN
     # Option to let you choose what kind of prefix this job adds to your name.
@@ -137,9 +137,9 @@ Jobs:
         # Permission granted when reaching level 10
         level: 10
   Miner:
-    fullname: Miner
+    fullname: Madenci
     shortname: M
-    description: Earns money mining minerals and ores.
+    description: Mineral ve cevherleri kazarak para kazanir.
     ChatColour: DARK_GRAY
     chat-display: full
     #max-level: 10
@@ -194,9 +194,9 @@ Jobs:
         income: 10.0
         experience: 10.0
   Builder:
-    fullname: Builder
-    shortname: B
-    description: Earns money for building structures.
+    fullname: Mimar
+    shortname: M
+    description: Binalar yaparak para kazanir.
     ChatColour: WHITE
     chat-display: full
     #max-level: 10
@@ -268,9 +268,9 @@ Jobs:
         income: 10.0
         experience: 10.0
   Digger:
-    fullname: Digger
-    shortname: D
-    description: Earns money for terraforming the world.
+    fullname: Kazici
+    shortname: K
+    description: Toprak-turu seyler kazarak para kazanir.
     ChatColour: GOLD
     chat-display: full
     #max-level: 10
@@ -303,9 +303,9 @@ Jobs:
         income: 10.0
         experience: 10.0
   Farmer:
-    fullname: Farmer
-    shortname: Fa
-    description: Earns money farming crops.
+    fullname: Ciftci
+    shortname: C
+    description: Ciftlik yaparak para kazanir.
     ChatColour: BLUE
     chat-display: full
     #max-level: 10
@@ -336,9 +336,9 @@ Jobs:
         income: 10.0
         experience: 10.0
   Hunter:
-    fullname: Hunter
-    shortname: H
-    description: Earns money killing animals and monsters.
+    fullname: Avci
+    shortname: A
+    description: Hayvan ve canavar oldurerek para kazanir.
     ChatColour: RED
     chat-display: full
     #max-level: 10
@@ -397,9 +397,9 @@ Jobs:
         income: 20.0
         experience: 20.0
   Fisherman:
-    fullname: Fisherman
-    shortname: Fi
-    description: Earns money from fishing.
+    fullname: Balicki
+    shortname: B
+    description: Balik tutarak para kazanir.
     ChatColour: AQUA
     chat-display: full
     #max-level: 10
@@ -420,9 +420,9 @@ Jobs:
         income: 10.0
         experience: 10.0
   Weaponsmith:
-    fullname: Weaponsmith
-    shortname: W
-    description: Earns money from crafting and repairing weapons.
+    fullname: Silahci
+    shortname: S
+    description: Silahlari yaparak ve tamir ederek para kazanir.
     ChatColour: DARK_PURPLE
     chat-display: full
     #max-level: 10
@@ -464,9 +464,9 @@ Jobs:
         income: 2.0
         experience: 2.0
   Brewer:
-    fullname: Brewer
-    shortname: Br
-    description: Earns money brewing potions.
+    fullname: Simyaci
+    shortname: Si
+    description: Iksirler olusturarak para kazanir.
     ChatColour: LIGHT_PURPLE
     chat-display: full
     leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
@@ -504,9 +504,9 @@ Jobs:
         income: 4.0
         experience: 4.0
   Enchanter:
-    fullname: Enchanter
-    shortname: E
-    description: Earns money enchanting weapons.
+    fullname: Buyucu
+    shortname: B
+    description: Silahlari buyuleyerek para kazanir.
     ChatColour: DARK_BLUE
     chat-display: full
     #max-level: 10
